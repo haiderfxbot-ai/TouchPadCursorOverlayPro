@@ -1,0 +1,7 @@
+-keepclassmembers class * extends android.app.Service { *; }
+-keepclassmembers class * extends android.accessibilityservice.AccessibilityService { *; }
+-keep class com.touchpad.cursoroverlay.** { *; }
+-keepclassmembers class com.touchpad.cursoroverlay.data.** { *; }
+-keepclassmembers class com.touchpad.cursoroverlay.service.** { *; }
+-keep class dagger.hilt.** { *; }
+-keep class javax.inject.** { *; }

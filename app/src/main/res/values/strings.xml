@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TouchPad Cursor Overlay Pro</string>
+    <string name="app_description">Floating desktop-style touchpad and cursor overlay for Android</string>
+    <string name="start_overlay">Start Overlay</string>
+    <string name="stop_overlay">Stop Overlay</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="permissions">Permissions</string>
+    <string name="touchpad">Touchpad</string>
+    <string name="cursor">Cursor</string>
+    <string name="left_click">Left Click</string>
+    <string name="right_click">Right Click</string>
+    <string name="minimize">Minimize</string>
+    <string name="close">Close</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="opacity">Opacity</string>
+    <string name="cursor_speed">Cursor Speed</string>
+    <string name="cursor_size">Cursor Size</string>
+    <string name="cursor_opacity">Cursor Opacity</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="auto_start">Auto Start Overlay</string>
+    <string name="auto_restore">Auto Restore Position</string>
+    <string name="vibration_feedback">Vibration Feedback</string>
+    <string name="sound_feedback">Sound Feedback</string>
+    <string name="overlay_permission">Display Over Other Apps</string>
+    <string name="accessibility_permission">Accessibility Service</string>
+    <string name="battery_permission">Ignore Battery Optimization</string>
+    <string name="notification_permission">Notification Permission</string>
+    <string name="onboarding_welcome">Welcome to TouchPad Cursor Overlay Pro</string>
+    <string name="onboarding_desc">Control your Android device with a desktop-style touchpad</string>
+    <string name="get_started">Get Started</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="developer">TouchPad Labs</string>
+</resources>
