@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
@@ -21,7 +22,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.launch
 
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
 fun OnboardingScreen(onComplete: () -> Unit) {
     val pagerState = rememberPagerState(pageCount = { 3 })
@@ -85,12 +86,12 @@ fun OnboardingScreen(onComplete: () -> Unit) {
         ) { page ->
             when (page) {
                 0 -> OnboardingPage(
-                    icon = Icons.Default.Touchpad,
+                    icon = Icons.Default.TouchApp,
                     title = "Floating Touchpad",
                     description = "A floating touchpad overlay that appears above all apps. Drag to move it, use the surface to control your cursor."
                 )
                 1 -> OnboardingPage(
-                    icon = Icons.Default.Computer,
+                    icon = Icons.Default.Settings,
                     title = "Desktop-Style Control",
                     description = "Left click, right click, drag, and scroll — just like a laptop touchpad. Works system-wide on all apps and browsers."
                 )

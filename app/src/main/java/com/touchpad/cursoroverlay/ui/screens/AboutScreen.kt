@@ -56,7 +56,7 @@ fun AboutScreen(onBack: () -> Unit) {
                 contentAlignment = Alignment.Center
             ) {
                 Icon(
-                    imageVector = Icons.Default.Touchpad,
+                    imageVector = Icons.Default.Star,
                     contentDescription = null,
                     modifier = Modifier.size(48.dp),
                     tint = MaterialTheme.colorScheme.primary
@@ -99,19 +99,19 @@ fun AboutScreen(onBack: () -> Unit) {
                         label = "Description",
                         value = "A floating desktop-style touchpad and cursor overlay system that works across the entire Android device."
                     )
-                    HorizontalDivider()
+                    Divider()
                     AboutRow(
                         icon = Icons.Default.DeveloperMode,
                         label = "Developer",
                         value = "TouchPad Labs"
                     )
-                    HorizontalDivider()
+                    Divider()
                     AboutRow(
                         icon = Icons.Default.Android,
                         label = "Platform",
                         value = "Android ${android.os.Build.VERSION.RELEASE}"
                     )
-                    HorizontalDivider()
+                    Divider()
                     AboutRow(
                         icon = Icons.Default.Code,
                         label = "Architecture",

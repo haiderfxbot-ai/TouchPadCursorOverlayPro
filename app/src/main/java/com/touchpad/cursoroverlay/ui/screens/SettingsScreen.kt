@@ -63,7 +63,7 @@ fun SettingsScreen(
                     icon = Icons.Default.Speed
                 )
 
-                HorizontalDivider(modifier = Modifier.padding(horizontal = 4.dp))
+                Divider(modifier = Modifier.padding(horizontal = 4.dp))
 
                 // Cursor Size
                 SettingsSlider(
@@ -74,7 +74,7 @@ fun SettingsScreen(
                     icon = Icons.Default.Adjust
                 )
 
-                HorizontalDivider(modifier = Modifier.padding(horizontal = 4.dp))
+                Divider(modifier = Modifier.padding(horizontal = 4.dp))
 
                 // Cursor Opacity
                 SettingsSlider(
@@ -97,7 +97,7 @@ fun SettingsScreen(
                     icon = Icons.Default.ArrowRightAlt
                 )
 
-                HorizontalDivider(modifier = Modifier.padding(horizontal = 4.dp))
+                Divider(modifier = Modifier.padding(horizontal = 4.dp))
 
                 // Overlay Height
                 SettingsSlider(
@@ -108,7 +108,7 @@ fun SettingsScreen(
                     icon = Icons.Default.ArrowDropDown
                 )
 
-                HorizontalDivider(modifier = Modifier.padding(horizontal = 4.dp))
+                Divider(modifier = Modifier.padding(horizontal = 4.dp))
 
                 // Overlay Opacity
                 SettingsSlider(
@@ -129,7 +129,7 @@ fun SettingsScreen(
                     icon = Icons.Default.DarkMode
                 )
 
-                HorizontalDivider(modifier = Modifier.padding(horizontal = 4.dp))
+                Divider(modifier = Modifier.padding(horizontal = 4.dp))
 
                 SettingsToggle(
                     label = "Auto Start Overlay",
@@ -138,7 +138,7 @@ fun SettingsScreen(
                     icon = Icons.Default.PlayCircle
                 )
 
-                HorizontalDivider(modifier = Modifier.padding(horizontal = 4.dp))
+                Divider(modifier = Modifier.padding(horizontal = 4.dp))
 
                 SettingsToggle(
                     label = "Auto Restore Position",
@@ -157,7 +157,7 @@ fun SettingsScreen(
                     icon = Icons.Default.Vibration
                 )
 
-                HorizontalDivider(modifier = Modifier.padding(horizontal = 4.dp))
+                Divider(modifier = Modifier.padding(horizontal = 4.dp))
 
                 SettingsToggle(
                     label = "Sound Feedback",

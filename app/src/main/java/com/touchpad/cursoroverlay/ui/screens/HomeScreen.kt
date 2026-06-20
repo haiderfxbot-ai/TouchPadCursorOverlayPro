@@ -97,10 +97,7 @@ fun HomeScreen(
                         contentAlignment = Alignment.Center
                     ) {
                         Icon(
-                            imageVector = if (isOverlayActive)
-                                Icons.Default.Touchpad
-                            else
-                                Icons.Default.TouchApp,
+                            imageVector = Icons.Default.TouchApp,
                             contentDescription = null,
                             modifier = Modifier.size(40.dp),
                             tint = statusColor
@@ -190,6 +187,7 @@ fun HomeScreen(
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun QuickActionCard(
     icon: androidx.compose.ui.graphics.vector.ImageVector,
